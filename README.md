@@ -1,11 +1,11 @@
-# Random Meal Generator
+# Link Generator for Whatsapp
 
-A random revenue generator obtaining data from a public API
+The link generator for WhatsApp is a great tool for marketing or relationship actions. With the link to personalized WhatsApp messages, you can use it in campaigns, social networks, email marketing, banners, etc. The good thing about shortening and customizing WhatsApp links and messages is that it will work on desktop and mobile in the same way. Make good use of WhatsApp's shortening tool.
 
 ![](images/web-preview.gif)
 
 ## Deployment in
-https://devgabrieldejesus.github.io/meal-generator
+https://devgabrieldejesus.github.io/link-generator-whatsapp
 
 ## Release history
 
@@ -20,11 +20,11 @@ Gabriel de Jesus – [My portfolio](https://www.gabrieldesenvolvedor.com/) – o
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-[https://github.com/devgabrieldejesus/meal-generator](https://github.com/devgabrieldejesus/)
+[https://github.com/devgabrieldejesus/link-generator-whatsapp](https://github.com/devgabrieldejesus/)
 
 ## Contributing
 
-1. Fork it (<https://github.com/devgabrieldejesus/meal-generator/fork>)
+1. Fork it (<https://github.com/devgabrieldejesus/link-generator-whatsapp/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)

@@ -29,7 +29,6 @@
 }
 
 body {
-    height: 100vh;
     color: var(--black);
     transition: all ease 0.3s;
     background-color: #FFF;
@@ -38,11 +37,237 @@ body {
     background-size: cover;
     background-image: url('images/bg.webp');
 }
+
+a {
+    text-decoration: none;
+}
 /* ============================================ main ============================================ */
 
 main {
-    height: 597px;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+main h1 {
+    font-size: 28px;
+    font-weight: 400;
+    color: var(--green);
+    margin: 30px 0px 30px 0px;
+}
+
+main #formulario {
+    display: flex;
+}
+
+main input[type=text],
+main textarea {
+    width: 450px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text);
+    border-radius: 6px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: 18px center;
+    border: 2px solid var(--green);
+    background-image: url('images/phone.webp');
+}
+
+main textarea {
+    margin-bottom: 0px;
+    max-height: 100px;
+    min-height: 100px;
+    max-width: 450px;
+    min-width: 450px;
+    background-size: 22px;
+    padding: 10px 0px 0px 50px;
+    background-position: 18px 13px;
+    background-image: url('images/message.webp');
+}
+
+main input[type=submit],
+a,
+#copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    border: 0px;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 400;
+    border-radius: 30px;
+    margin-bottom: 40px;
+    background-color: var(--green);
+}
+
+main .info {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+main h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--green);
+    margin: 0px 0px 10px 0px;
+}
+
+main ul {
+    list-style: none;
+}
+
+main li {
+    display: flex;
+    font-size: 16px;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+
+main span {
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 10px;
+    color: var(--green);
+}
+
+main strong {
+    margin-left: 6px;
+    font-weight: 700;
+}
+
+.generateItems {
+    display: flex;
+}
+
+#copy,
+a {
+    display: none;
+}
+
+#copy {
+    margin: 10px 0px 10px 0px;
+}
+
+a {
+    color: var(--green);
+    background-color: #FFF;
+    border: 2px solid var(--green);
+}
+
+a:hover,
+#copy:hover,
+main input[type=submit]:hover {
+    transform:scale(1.1);
+    transition: all ease 0.3s;
+}
+
+#result {
+    height: 80px;
+    display: none;
+    max-width: 450px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 10px 0px 10px;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 20px;
+    border: 2px solid var(--green);
+}
+
+@media (max-height: 690px) {
+    main {
+        height: 700px;
+    }
+}
+
+@media (max-width: 850px) {
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 520px) {
+    main {
+        margin: 30px;
+    }
+    main h1 {
+        text-align: center;
+    }
+    main input[type=text], main textarea {
+        width: 310px;
+        font-size: 16px;
+    }
+
+    main textarea {
+        max-width: 310px;
+        min-width: 310px;
+    }
+
+    #result {
+        max-width: 310px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .container {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    main input[type=text], main textarea {
+        width: 260px;
+        background-size: 18px;
+    }
+
+    main textarea {
+        max-width: 260px;
+        min-width: 260px;
+    }
+
+    main .info {
+        max-width: 260px;
+    }
+
+    main h1 {
+        font-size: 22px;
+    }
+
+    main input[type=submit], a, #copy {
+        width: 260px;
+    }
+
+    #result {
+        font-size: 13px;
+        max-width: 230px;
+    }
+}
+
+@media(max-width: 350px) {
+    main input[type=text], main textarea {
+        max-width: 230px;
+        min-width: 230px;
+        font-size: 15px;
+        padding-left: 40px;    
+        background-position: 10px 10px;
+    }
+
+    main input[type=submit], a, #copy {
+        width: 230px;
+    }
+
+    main .info {
+        width: 230px;
+    }
 }

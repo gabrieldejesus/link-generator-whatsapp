@@ -9,21 +9,31 @@
 </head>
 <body>
     <main>
-        <div class="container">
-            
-            <form id="formulario">
+        <div class="container column">
+
+            <form id="formulario" class="column">
                 <h1>Gerador de link para Whatsapp</h1>
-                <label>NÚMERO DO CELULAR</label><br>
-                <input type="text" name="number" placeholder="Digite seu número" id="campo" />
-                <br><br>
+                <input type="text" name="number" placeholder="Digite seu número aqui" id="campo" />
                 
-                <label>MENSAGEM</label><br>
-                <textarea name="text" placeholder="Escreva o texto" id="textarea" ></textarea><br>
+                <textarea name="text" placeholder="Digite uma mensagem aqui" id="text" maxlength="23" ></textarea><br>
                 
-                <input type="submit" value="Gerar Link">
-              </form>
-              
-              <div id="result"></div>
+                <div id="result"></div>
+                
+                <input type="submit" value="Gerar Link" id="generate">
+            </form>
+            <button id="copy">Copiar</button>
+            <a href="index.html">Gerar novo Link</a>
+            
+              <div class="info column">
+                  <h2>Como funciona</h2>
+                  <ul>
+                    <li><span>1</span>Insira o nº do WhatsApp Ex: 21968265273</li>
+                    <li><span>2</span>Escreva a mensagem padrão que será exibida</li>
+                    <li><span>3</span>Clique em <strong>GERAR LINK</strong></li>
+                    <li><span>4</span>Copie o link e compartilhe</li>
+                    <li><span>5</span>Antes de usar, faça o teste</li>
+                  </ul>
+              </div>
 
         </div>
     </main>

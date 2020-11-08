@@ -30,7 +30,7 @@ or download the zip from the green button at the beginning of the repository
 
 ![](images/clone-zip.png)
 
-## Release history
+## 🗃 Release history
 
 * 0.1.0
     * Project finalized and studying the possibility of adding new resources
@@ -88,7 +88,7 @@ ou baixe o zip do botão verde no início do repositório
 
 ![](images/clone-zip.png)
 
-## Histórico de lançamento
+## 🗃 Histórico de lançamento
 
 * 0.1.0
     * Projeto finalizado e estudando a possibilidade de agregar novos recursos

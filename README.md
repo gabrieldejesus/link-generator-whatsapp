@@ -26,7 +26,9 @@ https://gabrieldejesus.github.io/link-generator-whatsapp
 
 ## 📈 Example of use
 
-The link generator for WhatsApp is a great tool for marketing or relationship actions. With the link to personalized WhatsApp messages, you can use it in campaigns, social networks, email marketing, banners, etc. The good thing about shortening and customizing WhatsApp links and messages is that it will work on desktop and mobile in the same way. Make good use of WhatsApp's shortening tool.
+The link generator for WhatsApp is a great tool for marketing or relationship actions. With the link to personalized WhatsApp messages, you can use it in campaigns, social networks, email marketing, banners, etc.
+
+The good thing about shortening and customizing WhatsApp links and messages is that it will work on desktop and mobile in the same way. Make good use of WhatsApp's shortening tool.
 
 ## 🛠 Getting started
 

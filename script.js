@@ -1,3 +1,4 @@
+let country = document.querySelector('#country');
 let campo = document.querySelector('#campo');
 let text = document.querySelector('#text');
 let formulario = document.querySelector('#formulario');
@@ -12,7 +13,7 @@ formulario.addEventListener('submit', function(e) {
   e.preventDefault(); // it is necessary to send the form
   
   if(campo.value.length > 0 && text.value.length > 0) {
-    result.innerHTML = `${linkApi}55${campo.value}&text=${text.value}`;
+    result.innerHTML = `${linkApi}${country.value}${campo.value}&text=${text.value}`;
     campo.style.display = 'none'; // disable campo
     text.style.display = 'none'; // disable text
     generate.style.display = 'none'; // disable generate

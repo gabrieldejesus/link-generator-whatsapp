@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Gerador de link para Whatsapp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" type="image/svg" sizes="72x72" href="images/icon-72x72.svg">
+</head>
+<body>
+    <main>
+        <div class="container column">
+
+            <form id="formulario" class="column">
+                <h1>Gerador de link para Whatsapp</h1>
+                <input type="text" name="number" placeholder="Digite seu número aqui" id="campo" />
+                
+                <textarea name="text" placeholder="Digite uma mensagem aqui" id="text" maxlength="23" ></textarea><br>
+                
+                <div id="result"></div>
+                
+                <input type="submit" value="Gerar Link" id="generate">
+            </form>
+            <button id="copy">Copiar</button>
+            <a href="index.html">Gerar novo Link</a>
+            
+              <div class="info column">
+                  <h2>Como funciona</h2>
+                  <ul>
+                    <li><span>1</span>Insira o nº do WhatsApp Ex: 21968265273</li>
+                    <li><span>2</span>Escreva a mensagem padrão que será exibida</li>
+                    <li><span>3</span>Clique em <strong>GERAR LINK</strong></li>
+                    <li><span>4</span>Copie o link e compartilhe</li>
+                    <li><span>5</span>Antes de usar, faça o teste</li>
+                  </ul>
+              </div>
+
+        </div>
+    </main>
+    <!-- injecting the javascript -->
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
